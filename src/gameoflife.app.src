@@ -1,0 +1,14 @@
+{application, gameoflife,
+ [
+  {description, "An Erlang gameoflife library"},
+  {vsn, "1"},
+  {modules, [
+             gameoflife
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
